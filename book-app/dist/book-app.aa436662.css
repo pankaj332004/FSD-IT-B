@@ -1,0 +1,49 @@
+.book-card {
+  color: #000;
+  text-align: center;
+  background-color: #0ff;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  align-items: center;
+  width: 400px;
+  height: 450px;
+  margin: auto auto 20px;
+  padding: 25px;
+}
+
+.title {
+  color: gray;
+  font-size: 18px;
+}
+
+button {
+  color: beige;
+  text-align: center;
+  cursor: pointer;
+  background-color: #00f;
+  border: none;
+  border-radius: 8px;
+  outline: 0;
+  width: 40%;
+  padding: 8px;
+  font-style: italic;
+  display: inline-block;
+}
+
+a {
+  color: #000;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+button:hover, a:hover {
+  opacity: .7;
+}
+
+.booklist {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+/*# sourceMappingURL=book-app.aa436662.css.map */
