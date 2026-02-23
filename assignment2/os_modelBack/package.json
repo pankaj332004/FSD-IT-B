@@ -1,0 +1,36 @@
+{
+  "name": "os_model_backend",
+  "version": "1.0.0",
+  "description": "OS Model Backend - CPU Scheduling, Memory Management, Disk Scheduling",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "os",
+    "cpu-scheduling",
+    "memory-management",
+    "disk-scheduling"
+  ],
+  "author": "Pankaj (pankaj332004)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.5.0",
+    "cross-env": "^7.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
+
